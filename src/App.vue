@@ -6,7 +6,23 @@
     <router-link to="/title">Title</router-link>
   </div>
   <router-view/>
+  <ParentComponent />
+  <ParentComponent2 />
 </template>
+
+<script>
+import ParentComponent from './views/ParentComponent.vue'
+import ParentComponent2 from './views/ParentComponent2.vue'
+
+
+export default {
+  components: {
+    ParentComponent,
+    ParentComponent2
+  }
+}
+
+</script>
 
 <style>
 #app {
