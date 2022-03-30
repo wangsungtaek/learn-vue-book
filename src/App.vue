@@ -8,17 +8,27 @@
   <router-view/>
   <ParentComponent />
   <ParentComponent2 />
+  <ParentComponent3 />
+  <ParentComponent5 />
+  <ProvideInject />
 </template>
 
 <script>
 import ParentComponent from './views/ParentComponent.vue'
 import ParentComponent2 from './views/ParentComponent2.vue'
+import ParentComponent3 from './views/ParentComponent3.vue'
+import ParentComponent5 from './views/ParentComponent5.vue'
+import ProvideInject from './views/ProvideInject.vue'
+
 
 
 export default {
   components: {
     ParentComponent,
-    ParentComponent2
+    ParentComponent2,
+    ParentComponent3,
+    ParentComponent5,
+    ProvideInject
   }
 }
 
