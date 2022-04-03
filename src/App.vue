@@ -13,6 +13,7 @@
   <ProvideInject />
   <CompositionAPI2 />
   <CompositionAPI4 />
+  <StoreAccess />
 </template>
 
 <script>
@@ -23,6 +24,7 @@ import ParentComponent2 from './views/ParentComponent2.vue'
 import ParentComponent3 from './views/ParentComponent3.vue'
 import ParentComponent5 from './views/ParentComponent5.vue'
 import ProvideInject from './views/ProvideInject.vue'
+import StoreAccess from './views/StoreAccess.vue'
 
 
 export default {
@@ -33,7 +35,8 @@ export default {
     ParentComponent5,
     ProvideInject,
     CompositionAPI2,
-    CompositionAPI4
+    CompositionAPI4,
+    StoreAccess
   }
 }
 
