@@ -24,6 +24,11 @@ const routes = [
     path: '/title',
     name: 'Title',
     component: () => import(/* webpackChunkName: "data" */ '../views/NestedComponent.vue')
+  },
+  {
+    path: '/kakaologin',
+    name: 'KaKaoLogin',
+    component: () => import(/* webpackChunkName: "data" */ '../views/KaKaoLogin.vue')
   }
 
 ]
